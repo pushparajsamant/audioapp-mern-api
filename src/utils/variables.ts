@@ -1,0 +1,10 @@
+const { env } = process as { env: { [key: string]: string } };
+export const MONGO_URI = env.MONGO_URI;
+export const MAILTRAP_USERNAME = env.MAILTRAP_USER;
+export const MAILTRAP_PASSWORD = env.MAILTRAP_PASS;
+export const PASSWORD_RESET_LINK = env.PASSWORD_RESET_LINK;
+export const SIGNIN_LINK = env.SIGN_IN_LINK;
+export const JWT_SECRET = env.JWT_SECRET;
+export const CLOUD_NAME = env.CLOUD_NAME;
+export const CLOUDINARY_APIKEY = env.CLOUDINARY_APIKEY;
+export const CLOUDINARY_APISECRET = env.CLOUDINARY_APISECRET;
